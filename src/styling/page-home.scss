@@ -1,0 +1,358 @@
+ $font: 'UOLText,Arial,sans-serif';
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #000;
+}
+
+.bar-logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5dd05;
+    img {
+        width: 6%;
+        height: 68px;
+        margin-right: 4px;
+    }
+    span {
+        font-size: 24px;
+        color: #050307;
+        font-family: $font;
+    }
+}
+
+.content-initial {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../image/bg-top.jpg');
+    height: 500px;
+    background-size: cover;
+    .top-content {
+        width: 37%;
+        margin-left: 8%;
+        margin-bottom: 2%;
+        .top-images {
+            text-align: center;
+            img{
+                width: 72%;
+            }
+        }
+        .remaining-content {
+            .text {
+                h1 {
+                    display: flex;
+                    flex-wrap: wrap;
+                    font-size: 4rem;
+                    color: #fff;
+                    font-family: $font;
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    span {
+                        font-size: 3.2rem;
+                        font-weight: 100;
+                        width: 100%;
+                        text-align: center;
+                    }
+                }
+                p {
+                    font-size: 12px;
+                    font-family: $font;
+                    color: #fff;
+                    font-weight: 100;
+                    strong{
+                        font-weight: 600;
+                    }
+                }
+            }
+            .teams-content {
+                .teams {
+                    display: flex;
+                    flex-direction: row;
+                    .team {
+                        font-size: 16px;
+                        font-family: $font;
+                        color: #fff;
+                        display: flex;
+                        flex-direction: column;
+                        font-weight: 500;
+                        width: 33%;
+                        text-align: center;
+                        img {
+                            max-height: 90px;
+                        }
+                        &.england {
+                            img {
+                                width: 113px;
+                                margin: auto;
+                            }
+                        }
+                    }
+                    .date-game {
+                        width: 33%;
+                        text-align: center;
+                        padding-top: 7%;
+                        .when {
+                            padding: 1%;
+                            background: #f00;
+                            font-family: $font;
+                            font-size: 12px;
+                            width: 80%;
+                            margin: auto;
+                            color: #fff;
+                            font-weight: 600;
+                            border-radius: 2px;
+                        }
+                        .time {
+                            color: #fff;
+                            font-family: $font;
+                            font-size: 20px;
+                            font-weight: 600;
+                            margin-top: 10%;
+                            .md-24 {
+                                font-size: 5rem;
+                                color: #f00;
+                            }
+                        }
+                    }
+                }
+                .btn-sign {
+                    margin-top: 3%;
+                    background: #f5dd05;
+                    color: #050307;
+                    text-transform: uppercase;
+                    font-size: 18px;
+                    width: 100%;
+                    text-align: center;
+                    padding: 2% 5%;
+                    font-family: $font;
+                    border: none;
+                    border-radius: 4px;
+                    &:focus{
+                        outline: none;
+                    }
+                }
+                .tiny-text {
+                    width: 100%;
+                    font-size: 11px;
+                    color: #ffffffbd;
+                    font-weight: 100;
+                    font-family: $font;
+                    text-align: center;
+                    margin-top: 2%;
+                }
+            }
+        }
+    }
+}
+
+.content-center {
+    width: 100%;
+    background: #ebebeb;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    .centralize {
+        display: flex;
+        margin-left: 8%;
+        .image-text {
+            display: flex;
+            flex-direction: row;
+            width: 30%;
+            align-items: center;
+            .division {
+                display: block;
+                height: 36px;
+                width: 2px;
+                background: #ff004c;
+                margin: 0 4%;
+            }
+            .break {
+                display: flex;
+                flex-direction: column;
+                span {
+                    font-size: 16px;
+                    font-family: $font;
+                }
+            }
+            .md-24 {
+                font-size: 7rem;
+                height: 55px;
+                margin-top: 1%;
+
+            }
+        }
+    }
+    .draw-triangule {
+        width: 0px;
+        height: 0px;
+        position: absolute;
+        top: 115px;
+        right: 45%;
+        display: block;
+        border-top: 60px solid #ebebeb;
+        border-left: 60px solid transparent;
+        border-bottom: 60px solid transparent;
+        border-right: 60px solid transparent;
+    }
+}
+
+.content-with-card {
+    background: #fff;
+    padding: 4% 0 6%;
+    h2 {
+        font-family: $font;
+        font-size: 4rem;
+        color: #564e5d;
+        text-align: center;
+        &:after {
+            content: '';
+            background-color: #f5dd05;
+            width: 10%;
+            height: 4px;
+            margin: auto;
+            margin-top: 1%;
+            display: block;
+        }
+    }
+    .centralize-cards {
+        margin-top: 4%;
+        display: flex;
+        justify-content: center;
+        .card-team{
+            width: 41%;
+            min-height: 250px;
+            background: #d9d9d9;
+            overflow: hidden;
+            .divsion-logo {
+                background-color: #dbdbdb;
+                text-align: center;
+                padding: 2% 0;
+                cursor: pointer;
+                &.espn {
+                    padding: 4% 0;
+                }
+            }
+            .leagues-img {
+                width: 100%;
+            }
+            &.add-space {
+                margin-right: 2%;
+            }
+        }
+    }
+}
+
+footer {
+    width: 100%;
+    background-color: #343435;
+    min-height: 300px;
+    .centralize-content-bottom {
+        padding: 8%;
+        .first-content {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 3%;
+            border-bottom: 1px solid #6a6868;
+            span {
+                color: #989898;
+                font-size: 14px;
+                font-family: $font;
+                margin-top: 1%;
+            }
+        }
+        .second-content {
+            margin-top: 4%;
+            display: flex;
+            flex-direction: column;
+            span {
+                color: #989898;
+                font-size: 14px;
+                font-family: $font;
+            }
+            .last-text {
+                display: flex;
+                margin-top: 2%;
+                color: #988800;
+                font-size: 14px;
+                font-family: $font;
+                align-items: center;
+                cursor: pointer;
+                .md-24 {
+                    color: #988800;
+                    font-size: 15px;
+                    margin-right: 2px;
+                    height: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:767px){
+    .bar-logo {
+        img {
+            width: 22%;
+        }
+    }
+    .content-initial {
+        .top-content {
+            width: 100%;
+            margin-left: 0%;
+            margin-bottom: 2%;
+        }
+    }
+
+    .content-center {
+        .centralize {
+            display: flex;
+            margin-left: 0%;
+            flex-direction: column;
+            .image-text {
+                width: 100%;
+                min-height: 99px;
+                justify-content: center;
+            }
+        }
+        .draw-triangule {
+            top: 273px;
+            right: 35%;
+        }
+    }
+
+    .content-with-card {
+        padding: 15% 0 12%;
+        h2 {
+            font-size: 3rem;
+            margin-bottom: 9%;
+            &:after {
+                width: 35%;
+                margin-top: 2%;
+            }
+        }
+        .centralize-cards {
+            flex-direction: column;
+            .card-team {
+                width: 100%;
+                &.add-space {
+                    margin-right: 0;
+                    margin-bottom: 10%;
+                }
+            }
+        }
+    }
+
+    footer {
+        min-height: 250px;
+        .centralize-content-bottom {
+            padding: 4%;
+        }
+    }
+}
