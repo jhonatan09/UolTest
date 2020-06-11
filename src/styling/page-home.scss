@@ -308,6 +308,14 @@ footer {
             margin-left: 0%;
             margin-bottom: 2%;
         }
+        .england {
+            img {
+                width: 104px;
+            }
+        }
+        .time {
+            font-size: 13px;
+        }
     }
 
     .content-center {
@@ -353,6 +361,11 @@ footer {
         min-height: 250px;
         .centralize-content-bottom {
             padding: 4%;
+            .last-text {
+                .md-24 {
+                    height: 16px;
+                }
+            }
         }
     }
 }
