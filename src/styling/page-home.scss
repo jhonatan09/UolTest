@@ -356,3 +356,11 @@ footer {
         }
     }
 }
+
+@media screen and (min-width: 1600px) {
+    .bar-logo {
+        img {
+            height: 128px;
+        }
+    }
+}
