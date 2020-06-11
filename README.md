@@ -2,9 +2,9 @@
 
 ## Tecnologias utilizadas:
 
-ReactJS
-Bootstrap
-Pré-processador Sass
+ReactJS <br />
+Bootstrap <br />
+Pré-processador Sass <br />
 Material icons
 
 
