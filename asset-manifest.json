@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/UolTest/static/css/main.cf950458.chunk.css",
+    "main.css": "/UolTest/static/css/main.00a63488.chunk.css",
     "main.js": "/UolTest/static/js/main.e806c6ea.chunk.js",
     "main.js.map": "/UolTest/static/js/main.e806c6ea.chunk.js.map",
     "runtime-main.js": "/UolTest/static/js/runtime-main.de742ed6.js",
@@ -9,10 +9,10 @@
     "static/js/2.d434270f.chunk.js": "/UolTest/static/js/2.d434270f.chunk.js",
     "static/js/2.d434270f.chunk.js.map": "/UolTest/static/js/2.d434270f.chunk.js.map",
     "index.html": "/UolTest/index.html",
-    "precache-manifest.2ea80a11d4063be0f42ccce031280553.js": "/UolTest/precache-manifest.2ea80a11d4063be0f42ccce031280553.js",
+    "precache-manifest.a2439f4b0d7f1deafb0dc90288f5cbb3.js": "/UolTest/precache-manifest.a2439f4b0d7f1deafb0dc90288f5cbb3.js",
     "service-worker.js": "/UolTest/service-worker.js",
     "static/css/2.a2c6895a.chunk.css.map": "/UolTest/static/css/2.a2c6895a.chunk.css.map",
-    "static/css/main.cf950458.chunk.css.map": "/UolTest/static/css/main.cf950458.chunk.css.map",
+    "static/css/main.00a63488.chunk.css.map": "/UolTest/static/css/main.00a63488.chunk.css.map",
     "static/js/2.d434270f.chunk.js.LICENSE.txt": "/UolTest/static/js/2.d434270f.chunk.js.LICENSE.txt",
     "static/media/page-home.scss": "/UolTest/static/media/bg-top.fe6f12e2.jpg",
     "static/media/leagues-1.png": "/UolTest/static/media/leagues-1.d01ca14f.png",
@@ -26,7 +26,7 @@
     "static/js/runtime-main.de742ed6.js",
     "static/css/2.a2c6895a.chunk.css",
     "static/js/2.d434270f.chunk.js",
-    "static/css/main.cf950458.chunk.css",
+    "static/css/main.00a63488.chunk.css",
     "static/js/main.e806c6ea.chunk.js"
   ]
 }
