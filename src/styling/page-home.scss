@@ -31,7 +31,7 @@ body {
     justify-content: center;
     align-items: center;
     background-image: url('../image/bg-top.jpg');
-    height: 500px;
+    min-height: 500px;
     background-size: cover;
     .top-content {
         width: 37%;
@@ -307,14 +307,22 @@ footer {
             width: 100%;
             margin-left: 0%;
             margin-bottom: 2%;
-        }
-        .england {
-            img {
-                width: 104px;
+            .remaining-content{
+                .teams {
+                    .team {
+                        &.england {
+                            img {
+                                width: 104px;
+                            }
+                        }
+                    }
+                    .date-game {
+                        .time {
+                            font-size: 13px;
+                        }
+                    }
+                }
             }
-        }
-        .time {
-            font-size: 13px;
         }
     }
 
@@ -361,9 +369,11 @@ footer {
         min-height: 250px;
         .centralize-content-bottom {
             padding: 4%;
-            .last-text {
-                .md-24 {
-                    height: 16px;
+            .second-content {
+                .last-text {
+                    .md-24 {
+                        height: 16px;
+                    }
                 }
             }
         }
