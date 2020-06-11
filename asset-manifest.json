@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/UolTest/static/css/main.ba9d8231.chunk.css",
+    "main.js": "/UolTest/static/js/main.e806c6ea.chunk.js",
+    "main.js.map": "/UolTest/static/js/main.e806c6ea.chunk.js.map",
+    "runtime-main.js": "/UolTest/static/js/runtime-main.de742ed6.js",
+    "runtime-main.js.map": "/UolTest/static/js/runtime-main.de742ed6.js.map",
+    "static/css/2.a2c6895a.chunk.css": "/UolTest/static/css/2.a2c6895a.chunk.css",
+    "static/js/2.d434270f.chunk.js": "/UolTest/static/js/2.d434270f.chunk.js",
+    "static/js/2.d434270f.chunk.js.map": "/UolTest/static/js/2.d434270f.chunk.js.map",
+    "index.html": "/UolTest/index.html",
+    "precache-manifest.140aa6f8f6c8bfe04ee40811f6a04df5.js": "/UolTest/precache-manifest.140aa6f8f6c8bfe04ee40811f6a04df5.js",
+    "service-worker.js": "/UolTest/service-worker.js",
+    "static/css/2.a2c6895a.chunk.css.map": "/UolTest/static/css/2.a2c6895a.chunk.css.map",
+    "static/css/main.ba9d8231.chunk.css.map": "/UolTest/static/css/main.ba9d8231.chunk.css.map",
+    "static/js/2.d434270f.chunk.js.LICENSE.txt": "/UolTest/static/js/2.d434270f.chunk.js.LICENSE.txt",
+    "static/media/page-home.scss": "/UolTest/static/media/bg-top.fe6f12e2.jpg",
+    "static/media/leagues-1.png": "/UolTest/static/media/leagues-1.d01ca14f.png",
+    "static/media/leagues-2.png": "/UolTest/static/media/leagues-2.68a60f1f.png",
+    "static/media/logo-EI.png": "/UolTest/static/media/logo-EI.2d4af7d8.png",
+    "static/media/logo-espn.png": "/UolTest/static/media/logo-espn.bd42bd8c.png",
+    "static/media/logo-uol-init.png": "/UolTest/static/media/logo-uol-init.2137c820.png",
+    "static/media/logos.png": "/UolTest/static/media/logos.c4dc884d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.de742ed6.js",
+    "static/css/2.a2c6895a.chunk.css",
+    "static/js/2.d434270f.chunk.js",
+    "static/css/main.ba9d8231.chunk.css",
+    "static/js/main.e806c6ea.chunk.js"
+  ]
+}
