@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7a4b729ef25394ca1bb675557cbf1f88",
+    "revision": "fac34fb44e53eb98c1c4dbf0dbd6e9e5",
     "url": "/UolTest/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/UolTest/static/css/2.a2c6895a.chunk.css"
   },
   {
-    "revision": "aeb7fa2182e6ff13a4a3",
-    "url": "/UolTest/static/css/main.000e5acc.chunk.css"
+    "revision": "2c20f47fc1d471733404",
+    "url": "/UolTest/static/css/main.da720ff6.chunk.css"
   },
   {
     "revision": "d48d2da4362325082464",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/UolTest/static/js/2.d434270f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "aeb7fa2182e6ff13a4a3",
+    "revision": "2c20f47fc1d471733404",
     "url": "/UolTest/static/js/main.e806c6ea.chunk.js"
   },
   {
