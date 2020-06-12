@@ -50,7 +50,7 @@ function App() {
                                       <MaterialIcon icon="close"/>
                                 </div>
                             </div>
-                            <div className="team">
+                            <div className="team phila">
                                 <img src={team_Phi} atl="Philadelphia"/>
                                 Philadelphia Eagles
                             </div>

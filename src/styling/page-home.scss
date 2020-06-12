@@ -75,7 +75,7 @@ body {
                     display: flex;
                     flex-direction: row;
                     .team {
-                        font-size: 16px;
+                        font-size: 18px;
                         font-family: $font;
                         color: #fff;
                         display: flex;
@@ -85,11 +85,17 @@ body {
                         text-align: center;
                         img {
                             max-height: 90px;
+                            width: 113px;
                         }
                         &.england {
+                            font-size: 18px;
                             img {
-                                width: 113px;
                                 margin: auto;
+                            }
+                        }
+                        &.phila {
+                            img {
+                                margin-top: 3%;
                             }
                         }
                     }
