@@ -276,6 +276,9 @@ footer {
                 color: #989898;
                 font-size: 14px;
                 font-family: $font;
+                &:nth-child(1){
+                    text-transform: uppercase;
+                }
             }
             .last-text {
                 display: flex;
@@ -382,10 +385,13 @@ footer {
     }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1700px) {
     .bar-logo {
         img {
-            height: 128px;
+            height: inherit;
+        }
+        span {
+            font-size: 5vh;
         }
     }
 }

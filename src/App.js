@@ -134,8 +134,8 @@ function App() {
               </div>
               <div className="second-content">
                 <span>Universo online S/A</span>
-                <span>CNP/MF 01.109.184/0001-95</span>
-                <span>Av. Brigadeiro Faria Lima, 1.384, São Paulo</span>
+                <span>CNPJ/MF 01.109.184/0001-95</span>
+                <span>Av. Brigadeiro Faria Lima, 1.384, São Paulo/SP</span>
                 <span>CEP 01452-02</span>
                 <div className="last-text">
                   <MaterialIcon  icon="double_arrow" />
