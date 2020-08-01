@@ -33,6 +33,8 @@ body {
     background-image: url('../image/bg-top.jpg');
     min-height: 500px;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     .top-content {
         width: 37%;
         margin-left: 8%;
